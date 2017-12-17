@@ -17,7 +17,9 @@ Number of missing libraries that will be part of "normal" use.  I define "normal
     - zlib1g-dev
     - libudunits2-dev (not sure on the libary name...)
     
-    
+# Costs, persistence, etc.
+
+Instances are charged once they have been started.  Terminating appears to kill data created or loaded libraries so on every re-start starting over from scratch.  Any way to have persistent data stores?  Anyway to terminate and instance and save the set-up so that it is easy to re-start a customized instance?
 
 
 
